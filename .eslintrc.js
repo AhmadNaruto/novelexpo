@@ -1,7 +1,5 @@
+// https://docs.expo.dev/guides/using-eslint/
 module.exports = {
-  root: true,
-  extends: ['expo', 'eslint:recommended', 'universe/native'],
-  rules: {
-    'react-hooks/exhaustive-deps': 'warn',
-  },
+  extends: 'expo',
+  ignorePatterns: ['/dist/*'],
 }
